@@ -1,0 +1,51 @@
+$primary-color: #51445f;
+:host {
+    display: block;
+}
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: $primary-color;
+    text-align: center;
+    color: #fff;
+    padding: .7em 3em;
+    padding-bottom: .7em;
+    .login-body{
+        background-color: #fff;
+        height: 100%;
+        position: relative;
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    .login-header{
+        margin-bottom: .5em;
+
+    }
+    .logo{
+        width: 35px;
+        height: 35px
+    }
+    .col-lg-4 {
+        padding: 0;
+    }
+    
+    h1 {
+        font-weight: 300;
+        font-size: 20px;
+        padding-top: 5px;
+        margin-left: .5em;
+        small {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+
+    
+    
+    
+}
+

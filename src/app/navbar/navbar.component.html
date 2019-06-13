@@ -1,0 +1,108 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <form class="form-inline">
+        <div class="input-group">
+          <div class="input-group-prepend">
+           <img src="../../assets/images/search.png" class="search-icon">
+          </div>
+          <input type="search" class="form-control btn-search" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link " href="#">
+                  <img src="../../assets/images/full-screen.png" class="full-icon">
+              </a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link btn-lock" data-toggle="modal" data-target="#exampleModalCenter" >
+              <i class="fa fa-unlock-alt lock"></i>
+              <span >lock screen</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">
+                <img src="../../assets/images/usa-flag.png" class="flag-icon">
+                <span >English</span></a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+              <i class="fa fa-user-circle user-icon"></i>
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Hussam Eldeen
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+              <i class="fa fa-bell notif"></i>
+              <span class="badge badge-pill badge-warning notification">3</span>
+
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                <i class="fa fa-envelope notif"></i>
+                <span class="badge badge-pill badge-warning notification">3</span>
+            </a>
+          </li>
+        
+      </ul>
+      
+
+      
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Locked</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row box-lock">
+            <div class="col-2">
+              <img src="../../assets/images/user-profile.png" class="img-user" alt="">
+            </div>
+            <div class="col-md-8 info-user">
+              <p>Hussam Eldeen</p>
+              <form>
+                <div class="form-group">
+                    
+                    <input type="password" id="password">
+                    <label for="password">Password</label>
+                    <button type="submit" >login</button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">logout</button>
+        </div>
+      </div>
+    </div>
+  </div>

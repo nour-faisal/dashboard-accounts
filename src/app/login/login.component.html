@@ -1,0 +1,60 @@
+<div class="login-page">
+  <div class="login-header row">
+      <img src="../../assets/images/logo.PNG" class="logo" />
+      <h1>Campany name</h1>
+  </div>
+  <div class="row justify-content-md-center login-body">
+      <div class="col-md-5 box-form">
+          <!-- <img src="assets/images/logo.png" width="150px" class="user-avatar" />
+          <h1>SB Admin BS4 Angular7</h1> -->
+          <!-- <form role="form">
+              <div class="form-content">
+                  <div class="form-group">
+                      <input type="text"  class="form-control" id="" placeholder="">
+                  </div>
+
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="" placeholder="">
+                  </div>
+              </div>
+              <a class="btn rounded-btn" >Login</a>
+              &nbsp;
+              <a class="btn rounded-btn">register</a>
+          </form> -->
+          <h2>Login</h2>
+          <form role="form">
+                  <div class="form-content">
+                      <div class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" autofocus>
+                          <span class="highlight"></span>
+                          <span class="bar"></span>
+                          <label for="exampleInputEmail1">User Email</label>
+
+                        </div>
+                        <div class="form-group">
+                          
+                          <!-- <show-hide-password  size="lg" btnStyle="secondary" [btnOutline]="true"> -->
+                            
+                            <input type="password" class="form-control" ngModel passwordToggle>                 
+                            <label >Password</label>
+                            <!-- </show-hide-password> -->
+                        </div>
+                        
+                        
+                        <div class="form-group form-check">
+                            <label class="check ">Remember my user ID
+                                <input type="checkbox" checked="checked" name="is_name">
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <a  class="btn btn-login"  [routerLink]="[ '/home']" >login</a>
+                          <a [routerLink]="[ '/edit-license']" class="btn-license">License Agreement</a>
+                  </div>
+              </form>
+              <div class="col-md-12 login-footer">
+                      <a href="##" [routerLink]="[ '/forgtPass']" >Forget password</a>
+                      <a href="##">عربي</a>
+              </div>
+      </div>
+  </div>
+</div>
